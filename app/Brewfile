@@ -1,0 +1,16 @@
+tap "aws/tap"
+tap "hashicorp/tap"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+brew "openldap"
+brew "curl"
+brew "gitlab-runner", restart_service: true
+brew "jenkins-lts", restart_service: true
+brew "nginx", restart_service: true
+brew "terraform"
+brew "tree"
+brew "wget"
+brew "aws/tap/aws-sam-cli"
